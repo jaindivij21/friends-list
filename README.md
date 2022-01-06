@@ -1,24 +1,14 @@
-# README
+# Friends List
+A web app that acts as a database for information of your friends. Simply log in and make a start making a list of your friends if you have any duh.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Technologies Used
+HTML, CSS, Ruby On Rails 
 
-Things you may want to cover:
+### Steps to Run
+- clone the project
+- run the following commands
 
-* Ruby version
+```> bundle install --without production```
 
-* System dependencies
+```> rails s```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
