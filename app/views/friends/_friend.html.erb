@@ -1,12 +1,8 @@
 <div id="<%= dom_id friend %>">
   <tr>
-    <td> <%= friend.first_name %> </td>
-    <td> <%= friend.last_name %> </td>
+    <td> <%= link_to friend.first_name+' '+friend.last_name, friend %> </td>
     <td> <%= friend.email %> </td>
     <td> <%= friend.phone %> </td>
     <td> <%= friend.twitter %> </td>
-    <td>
-      <%= link_to "Show", friend %>
-    </td>
   </tr>
 </div>
